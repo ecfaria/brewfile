@@ -36,6 +36,7 @@ cask "spotify"
 cask "vanilla"
 cask "visual-studio-code"
 cask "whatsapp"
+cask "zoomus"
 
 mas 'Parallel Desktops', id: 1085114709
 mas 'Times', id: 1048770312
