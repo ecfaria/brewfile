@@ -35,10 +35,10 @@ cask "microsoft-edge"
 cask "rectangle"
 cask "skype"
 cask "slack"
-cask "spotify"
+cask "spotify" unless system '[ -d "/Application/Spotify.app" ]'
 cask "vanilla"
 cask "visual-studio-code" unless system '[ -d "/Applications/Visual Studio Code.app" ]'
-cask "whatsapp"
+cask "whatsapp" unsless system '[ -d "/Applications/WhatsApp.app" ]'
 cask "zoomus"
 
 mas 'Parallel Desktops', id: 1085114709
