@@ -35,7 +35,7 @@ cask "microsoft-edge"
 cask "rectangle"
 cask "skype"
 cask "slack"
-cask "spotify" unless system '[ -d "/Application/Spotify.app" ]'
+cask "spotify" unless system '[ -d "/Applications/Spotify.app" ]'
 cask "vanilla"
 cask "visual-studio-code" unless system '[ -d "/Applications/Visual Studio Code.app" ]'
 cask "whatsapp" unless system '[ -d "/Applications/WhatsApp.app" ]'
