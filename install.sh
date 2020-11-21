@@ -20,6 +20,10 @@ if [[ $shouldInstallPrograms = "" ]]; then
   echo "Installing programs..."
   brew update
   brew bundle
+  
+  echo "Installing zsh extensions that cannot be installed with brew"
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 fi
 
 
