@@ -28,7 +28,7 @@ cask "docker" unless system 'which docker'
 cask "droplr"
 cask "font-fira-code"
 cask "font-meslo-lg"
-cask "google-chrome"
+cask "google-chrome" unless system '[ -d "/Applications/Google Chrome.app" ]'
 cask "iterm2"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
@@ -37,7 +37,7 @@ cask "skype"
 cask "slack"
 cask "spotify"
 cask "vanilla"
-cask "visual-studio-code"
+cask "visual-studio-code" unless system '[ -d "/Applications/Visual Studio Code.app" ]'
 cask "whatsapp"
 cask "zoomus"
 
