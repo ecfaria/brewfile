@@ -38,7 +38,7 @@ cask "slack"
 cask "spotify" unless system '[ -d "/Application/Spotify.app" ]'
 cask "vanilla"
 cask "visual-studio-code" unless system '[ -d "/Applications/Visual Studio Code.app" ]'
-cask "whatsapp" unsless system '[ -d "/Applications/WhatsApp.app" ]'
+cask "whatsapp" unless system '[ -d "/Applications/WhatsApp.app" ]'
 cask "zoomus"
 
 mas 'Parallel Desktops', id: 1085114709
